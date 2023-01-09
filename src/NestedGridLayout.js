@@ -23,25 +23,25 @@ const PANELS_NESTED = [
       x: 0,
       y: 0,
       w: 4,
-      h: 3
+      h: 3,
     },
-    id: 1,
-    content: "3"
+    id: 4.1,
+    content: "4.1",
   },
   {
     datagrid: {
       x: 4,
       y: 0,
       w: 4,
-      h: 3
+      h: 3,
     },
-    id: 2,
+    id: 4.2,
     content: (
       <>
-        <span className="text">4 - Draggable with Handle</span>
+        <span className="text">4.2</span>
       </>
-    )
-  }
+    ),
+  },
 ];
 
 const PANELS = [
@@ -50,37 +50,37 @@ const PANELS = [
       x: 0,
       y: 0,
       w: 2,
-      h: 3
+      h: 3,
     },
     id: 1,
-    content: "1"
+    content: "1",
   },
   {
     datagrid: {
       x: 2,
       y: 0,
       w: 4,
-      h: 3
+      h: 3,
     },
     id: 2,
-    content: "2 - static"
+    content: "2",
   },
   {
     datagrid: {
       x: 6,
       y: 0,
       w: 2,
-      h: 3
+      h: 3,
     },
     id: 3,
-    content: "3"
+    content: "3",
   },
   {
     datagrid: {
       x: 8,
       y: 0,
       w: 4,
-      h: 5
+      h: 5,
     },
     id: 4,
     content: (
@@ -97,8 +97,8 @@ const PANELS = [
           </ReactGridLayout>
         </div>
       </Paper>
-    )
-  }
+    ),
+  },
 ];
 /**
  * This layout demonstrates how to use static grid elements.
