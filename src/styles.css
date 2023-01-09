@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.panel {
+  border: 1px solid black;
+  border-radius: 4px;
+  user-select: none;
+  background: #f1f1f1;
+  overflow: hidden;
+}
+.content {
+  height: 100%;
+  width: 100%;
+}
+
+.titlebar {
+  left: 0;
+  right: 0;
+  background-color: gray;
+}
